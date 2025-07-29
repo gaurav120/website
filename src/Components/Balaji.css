@@ -1,0 +1,118 @@
+
+/* Adjust the logo size */
+.navbar-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%;
+    /* margin-left: 20%; */
+  }
+  
+  /* Adjust the spacing of nav items */
+  .navbar-nav .nav-item {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+  }
+  
+  /* Optional: Add custom styles for nav links */
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White color for links */
+    font-weight: 500;
+
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #cccccc; /* Light gray on hover */
+  }
+  
+  .newclass {
+    background-color: #000435;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    /* position: absolute; */
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #000435;
+    padding: 20px;
+    gap: 20px;
+}
+
+.leftone, .rightone {
+    flex: 1;
+    min-width: 300px;
+}
+
+.leftone h1, .leftone h4, .leftone h7 {
+    color: white;
+}
+
+.rightone img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+@media (max-width: 1024px) {
+    .text-overlay h1 {
+        font-size: 3rem;
+    }
+
+    .text-overlay h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-overlay h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .text-overlay h4 {
+        font-size: 1rem;
+    }
+}
+
+
